@@ -27,7 +27,8 @@ For attempted optimization 1, I dropped two more columns in addition to 'EIN' an
 
 Most ask amounts are for 5000. To get a better handle on the data, for attempted optimization 2 I simply dropped these rows altogether and ran the original criteria on the model. While I realize this does not provide a true prediction, I felt that dropping the most common value would give us a better idea of what we might be able to do to optimize the results in this or future runs. This also did not work to optimize the model, and gave an Epoch 100 accuracy value of .7073 and a rough accuracy of .6824.
 
+For optimization 3 I started to see results. My optimization here, which cuts the threshold for the application_types and classifications down to 15 and 100, acheived an Epoch 100 accuracy value of .7399 and a rough accuracy of 
 
-
+For optimization 4 I tried to apply everything I have learned about what works and what does not work for this dataset, to try to acheive over .7500. 
 
 Note: It is generally preferable not to repeat lines of code. In the Optimization file, most lines of code are repeated in each optimization trial, some subtle differences, some without. This is so the tester can clearly run each or any optimization from the same file without having to track down variables or pieces of data from the first optimization. 
