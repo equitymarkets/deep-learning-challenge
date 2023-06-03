@@ -3,7 +3,7 @@
 
 Overview of the analysis: Explain the purpose of this analysis.
 
-The purpose of this analysis is to predict the y-value (whether or not a project receives charity funding) so that we may better understand the likelihood of a given project getting funding in the future. 
+
 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
@@ -21,6 +21,7 @@ Were you able to achieve the target model performance?
 
 What steps did you take in your attempts to increase model performance?
 
+The purpose of this analysis is to predict the y-value (whether or not a project receives charity funding) so that we may better understand the likelihood of a given project getting funding in the future. 
 
 The target variable is the 'IS_SUCCESSFUL' field, since we want to know that odds of getting funding given a series of variables. 
 
