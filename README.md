@@ -28,4 +28,6 @@ For optimization 3 I started to see results. My optimization here, which cuts th
 
 For optimization 4 I tried to apply everything I have learned about what works and what does not work for this dataset, to try to acheive over .7500. 
 
+Summary 
+
 Note: It is generally preferable not to repeat lines of code. In the Optimization file, most lines of code are repeated in each optimization trial, some subtle differences, some without. This is so the tester can clearly run each or any optimization from the same file without having to track down variables or pieces of data from the first optimization. 
