@@ -1,20 +1,16 @@
 # deep-learning-challenge
 
 
-
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
-Were you able to achieve the target model performance?
-
-What steps did you take in your attempts to increase model performance?
-
 Preprocessing and Explanation 
 
-The purpose of this analysis is to predict the y-value (whether or not a project receives charity funding) so that we may better understand the likelihood of a given project getting funding in the future. 
+The purpose of this analysis is to predict the y-value (IS_SUCCESSFUL - whether or not the money was used effectively) so that we may better understand the success of future charity ventures. 
 
-The target variable is the 'IS_SUCCESSFUL' field, since we want to know that odds of getting funding given a series of variables. 
+The target variable is the 'IS_SUCCESSFUL' field, since we want to know our prediction value given the other variables. 
 
 The features, after deleting the 'EIN' and 'NAME' columns (which, as identifiers, have no real statistical purpose and can be considered neither targets nor features), are 'APPLICATION_TYPE', 'AFFILIATION',	'CLASSIFICATION', 'USE_CASE',	'ORGANIZATION',	'STATUS',	'INCOME_AMT',	'SPECIAL_CONSIDERATIONS',	'ASK_AMT'	and 'IS_SUCCESSFUL'. While I attempted to drop many of the columns with practice runs, deleting any of them seems to only make the accuracy worse. 
+
+<img width="100%" alt="Targets and Features" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/f2fe7b70-19c5-4cff-8fe6-7b7ab438a824">
+
 
 Compiling, Training, and Evaluating the Model
 
