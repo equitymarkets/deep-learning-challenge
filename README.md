@@ -35,9 +35,9 @@ Compiling, Training, and Evaluating the Model
 
 In the original run, I acheived a final Epoch 100 accuracy of .7389 and an rough accuracy of .7313. This model used 80, 30, and 1 neurons for the respective input, hidden, and output layers. It deletes both the 'EIN' and 'NAME' columns since these variables are neither targets nor features. 'APPLICATION_TYPE' is binned so that values with less than 500 can all be in one 'Other' category. Similarly, for the 'CLASSIFICATION', I binned the 'Other' category at 1000, so values less than that would go into an 'Other' category for analysis. Below are the accuracy and loss charts:
 
-<img width="45%" alt="Accuracy" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/071c356a-6ada-4f0c-948c-df5b7669540f">
+<img width="60%" alt="Accuracy" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/071c356a-6ada-4f0c-948c-df5b7669540f">
 
-<img width="45%" alt="Loss" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/c2600944-3eb9-4aef-8334-08a7117fc8f3">
+<img width="60%" alt="Loss" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/c2600944-3eb9-4aef-8334-08a7117fc8f3">
 
 
 For attempted optimization 1, I dropped two more columns in addition to 'EIN' and 'NAME': 'STATUS' and 'SPECIAL_CONSIDERATION'. I changed the Other bins to be more inclusive: driving the 'APPLICATION_TYPE' cutoff from 500 to 1000 and the 'CLASSIFICATION' cutoff from 1000 to 2000. I added two hidden layers, both of the 'softcell' activation type, with 40 and 20 neurons. I drove the existing 'relu' layers from 80 to 160 neurons and 30 to 60 neurons. Finally, I added 100 epochs to the training session. Basically, I doubled everything. These changes drove down my column inputs (input_dim variable in the input layer) from 43 to 35. The changes did not help model accuracy, however, as the model saw a drop in final Epoch 200 accuracy to .7358 and a rough accuracy of .7250. 
