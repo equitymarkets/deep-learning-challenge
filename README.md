@@ -19,11 +19,17 @@ The original model uses 3 layers, 80, 30, and 1 neurons in each respective layer
 
 <img width="100%" alt="Meta Data" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/15094217-e7f2-4be0-9322-7ecd72d9b040">
 
-The original model did not acheive target performance, and in further optimizations I was only able to increase the accuracy to about 74%. (Explanation below.) 
+The original model did not acheive target performance, with an Epoch 100 accuracy of .7389 and a rough result accuracy of .7313. In further optimizations I was only able to increase the accuracy to about 74%. (Explanation below.) 
 
 <img width="100%" alt="First results" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/233573b0-3b7c-408e-8ea6-c2f08e4352f9">
 
+Below I highlight some of the steps that were taken to increase accuracy in the models. 
 
+Some ideas were:
+* Change the amount of epochs for testing
+* Change the amount of column inputs (summed up in the input_dim parameter in the first layer). 
+* Change the amount of layers, activation functions of the layers, and neurons within the layers. 
+* Drop or keep different columns, notably ones that may not directly relate to the analysis at hand. 
 
 Compiling, Training, and Evaluating the Model
 
