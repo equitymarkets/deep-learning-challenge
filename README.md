@@ -11,6 +11,11 @@ The features, after deleting the 'EIN' and 'NAME' columns (which, as identifiers
 
 <img width="100%" alt="Targets and Features" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/f2fe7b70-19c5-4cff-8fe6-7b7ab438a824">
 
+Most likely, 'EIN' and 'NAME' should be dropped because they are unlikely to bring any value to the analysis. However, there may be some value in leaving 'NAME' in the analysis, but due to a continuous technical glitch I was unable to run the program with 'NAME' included in later optimizations. 
+
+<img width="100%" alt="Removing EIN and NAME columns" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/d2bb2a8e-5448-4993-8bf8-b3b6772b1f22">
+
+
 
 Compiling, Training, and Evaluating the Model
 
