@@ -1,7 +1,7 @@
 # deep-learning-challenge
 
 
-##Preprocessing and Explanation 
+## Preprocessing and Explanation 
 
 The purpose of this analysis is to predict the y-value (IS_SUCCESSFUL - whether or not the money was used effectively) so that we may better understand the success of future charity ventures. 
 
