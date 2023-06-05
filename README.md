@@ -15,6 +15,9 @@ Most likely, 'EIN' and 'NAME' should be dropped because they are unlikely to bri
 
 <img width="100%" alt="Removing EIN and NAME columns" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/d2bb2a8e-5448-4993-8bf8-b3b6772b1f22">
 
+The original model uses 3 layers, 80, 30, and 1 neurons in each respective layer, and the relu, relu, and sigmoid functions for each. The original model did not acheive target performance, and in further optimizations I was only able to increase the accuracy to about 74%. (Explanation below.) 
+
+<img width="100%" alt="First results" src="https://github.com/equitymarkets/deep-learning-challenge/assets/49753517/15094217-e7f2-4be0-9322-7ecd72d9b040">
 
 
 Compiling, Training, and Evaluating the Model
